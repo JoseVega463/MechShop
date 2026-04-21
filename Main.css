@@ -1,0 +1,58 @@
+body{
+    background-color: skyblue;
+    margin: 0;
+    padding: 0;
+
+
+}
+.Information{
+    display: flex;
+    background-color: gainsboro;
+
+}
+.Logo{
+    height: 15vh;
+    width: 20vh;
+
+    position: relative;
+    margin: 2%;
+
+    background-image: url(ShopLogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+
+}
+.companyName,.phoneNumber{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+
+    background-color: aliceblue;
+    border-radius: 15px;
+
+    display: inline-block;
+    margin-top: 5%;
+    line-height: normal;
+
+    font-size: 70px;
+    position: relative;
+
+    margin: 2.5%;
+
+}
+.companyName{
+    font-size: 70px;
+    position: relative;
+}
+.break{
+    height: 15px;
+    width: 100vw;
+    background-color: black;
+}
+.phoneNumber{
+    font-size: 200%;
+    position: relative;
+}
