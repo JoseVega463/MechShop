@@ -1,58 +1,59 @@
 body{
-    background-color: skyblue;
+    background-color: azure;
     margin: 0;
     padding: 0;
-
-
+    
 }
-.Information{
+.topPortion{
     display: flex;
-    background-color: gainsboro;
-
+    flex-direction: row;
+    gap: 2.5%;
+    margin: 2%;
+    
 }
 .Logo{
-    height: 15vh;
-    width: 20vh;
+    height: auto;
+    width: auto;
 
-    position: relative;
-    margin: 2%;
-
-    background-image: url(ShopLogo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-
-
+    background-color: rgb(182, 182, 211);
 
 }
-.companyName,.phoneNumber{
+.compName{
+    height: auto;
+    width: 30%;
 
+    background-color: ivory;
+
+    border: 2px black solid;
+    border-radius: 5px;
+
+    text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 500;
-
-    background-color: aliceblue;
-    border-radius: 15px;
-
-    display: inline-block;
-    margin-top: 5%;
-    line-height: normal;
-
-    font-size: 70px;
-    position: relative;
-
-    margin: 2.5%;
-
+    font-size: x-large;
 }
-.companyName{
-    font-size: 70px;
-    position: relative;
+.testLogo{
+    height: 3.5vh;
 }
-.break{
-    height: 15px;
+.breakLine{
+    height: 1%;
     width: 100vw;
+
     background-color: black;
-}
-.phoneNumber{
-    font-size: 200%;
+    border: 1px solid black;
+    
+    margin: 0;
+    padding: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
     position: relative;
+}
+.Question1{
+    height: 15vh;
+    width: 40vw;
+    background-color: slategray;
+    
+    display: flex;
+    position: relative;
+    
 }
