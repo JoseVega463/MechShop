@@ -4,6 +4,7 @@ body{
     padding: 0;
     
 }
+
 .topPortion{
     display: flex;
     flex-direction: row;
@@ -11,13 +12,7 @@ body{
     margin: 2%;
     
 }
-.Logo{
-    height: auto;
-    width: auto;
 
-    background-color: rgb(182, 182, 211);
-
-}
 .compName{
     height: auto;
     width: 30%;
@@ -27,13 +22,18 @@ body{
     border: 2px black solid;
     border-radius: 5px;
 
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: x-large;
+    font-size: xx-large;
 }
-.testLogo{
-    height: 3.5vh;
+
+.Logo{
+    height: 5.5vh;
 }
+
 .breakLine{
     height: 1%;
     width: 100vw;
@@ -48,12 +48,45 @@ body{
 
     position: relative;
 }
-.Question1{
-    height: 15vh;
+
+.register{
+    height: 25vh;
     width: 40vw;
-    background-color: slategray;
     
     display: flex;
     position: relative;
+    left: 20%;
+    margin-top: 5%;
+    gap: 4%;
     
 }
+    .signIn,.signUp{
+        background-color: rgb(72, 194, 72);
+        border: 2px solid black;
+        flex: 1;
+        min-width: 40%;
+        max-width: 50%;
+        font-size: x-large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+        
+
+    }
+        .signInTitle, .signUpTitle{
+            display: flex;
+
+            align-items: center;
+            justify-content: center;
+            
+            background-color: ivory;
+            border: 2px solid black;
+
+        }
+        .userInfo{
+            height: auto;
+            width: auto;
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            
+        }
